@@ -1,0 +1,32 @@
+{
+  "name": "react-native-alert-wrapper",
+  "version": "1.0.0",
+  "description": "React Native Alert Wrapper to bind alert component throught the app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "alert",
+    "react-component",
+    "ios",
+    "android",
+    "alert-wrapper",
+    "wrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:naveenvignesh5/react-native-otp-textinput.git"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.20.0",
+    "prop-types": "^15.5.7"
+  },
+  "author": "Naveen Vignesh.B <naveenvignesh5.nv@gmail.com>",
+  "license": "MIT"
+}
