@@ -21,11 +21,13 @@
     "url": "git@github.com:naveenvignesh5/react-native-otp-textinput.git"
   },
   "dependencies": {
+    "react-native-dropdownalert": "^3.9.1",
+    "hoist-non-react-statics": "^3.3.0",
     "prop-types": "^15.6.2"
   },
   "peerDependencies": {
-    "react-native": ">=0.20.0",
-    "prop-types": "^15.5.7"
+    "react": "16.6.3",
+    "react-native": "^0.58.0"
   },
   "author": "Naveen Vignesh.B <naveenvignesh5.nv@gmail.com>",
   "license": "MIT"

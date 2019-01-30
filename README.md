@@ -1,4 +1,4 @@
-### REACT-NATIVE-ALERT-WRAPPER
+### **React-Native-Alert-Wrapper**
 
 <ul>
   <li>A Wrapper that enables you to call your alert from anywhere in the app</li>
