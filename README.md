@@ -11,7 +11,6 @@
 Supports both Android and iOS.
 
 #### Props
-
 The following props are applicable for the **AlertProvider** wrapper.
 
 Prop              | Type     | Optional | Default     | Description
@@ -25,24 +24,27 @@ customAlert         | any     | Yes       | null       | Custom Alert Component
 
 ```javascript
    class CustomAlertComponent extends PureComponent { // PureComponent - Optimal Performance
+      // Required
       alert = (...params) => {
         // Logic to trigger alert
       }
 
+      // Required
       alertWithType = (...params) => {
         // Similar to alert method. Could be used to have different alert types
       }
 
       render() {
         return (
-          <View />
+          // View definitions
         );
       }
    }
 ```
 
-***Note:***
-CustomAlertComponent class requires both `alert` and `alertWithType` methods to be declared to avoid app breakage.<br>
+***Warning:***
+
+CustomAlertComponent class requires both `alert` and `alertWithType` methods to be defined. Otherwise it will raise undefined error<br>
 
 ### Integrating with React Native
 
@@ -71,7 +73,7 @@ const AppWithAlert = () => (
 export default AppWithAlert;
 ```
 
-### Usage
+### Usage inside a Screen Component
 
 ```javascript
 import React, { Component } from 'react';
